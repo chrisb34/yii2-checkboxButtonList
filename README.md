@@ -2,12 +2,14 @@
 
 A really simple widget to display a list of checkboxes in button format
 
-##Use
+## Use
 
- `CheckboxButtonList::widget([
+ `
+ $weekdays = ['S','M','T','W','T','F','S'];
+ CheckboxButtonList::widget([
 	 						'name'=>'days',
 	 						'selection'=>'',
-	 						'items'=>$model->weekdays
+	 						'items'=>$weekdays
 	 		]);
 `
 
