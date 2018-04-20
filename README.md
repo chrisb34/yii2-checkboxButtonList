@@ -10,4 +10,7 @@ A really simple widget to display a list of checkboxes in button format
 	 						'items'=>$model->weekdays
 	 		]);
 `
+
+Example output:-
+
 ![alt text](example.png)
